@@ -26,7 +26,7 @@ $model = JModelLegacy::getInstance('Reports', 'TjreportsModel');
 $installed = $model->addTjReportsPlugins();
 ```
 
-If you are intalling plugin as a part of a package. You can call above method in postflight of package script. Above method requires some detail from your plugin so you must have below method that will return plugin detail.
+If you are installing plugin as a part of a package. You can call above method in postflight of package script. Above method requires some detail from your plugin so you must have below method that will return plugin detail.
 
 ```
 public function getPluginDetail()
